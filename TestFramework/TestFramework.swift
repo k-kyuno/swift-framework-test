@@ -9,10 +9,14 @@
 import SwiftGRPC
 import Foundation
 
-class Hoge {
+public class Hoge {
+    public init() {
+        print("INIT")
+    }
     
-    func a() -> Void {
+    public func a() -> Void {
         gRPC.initialize();
+        print("Hello from Hoge")
     }
     
 }

@@ -12,7 +12,7 @@
 		15BEFD592498D725007B3269 /* TestFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BEFD582498D725007B3269 /* TestFrameworkTests.swift */; };
 		15BEFD5B2498D725007B3269 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BEFD4D2498D725007B3269 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15BEFD832498F2B1007B3269 /* SwiftGRPC in Frameworks */ = {isa = PBXBuildFile; productRef = 15BEFD822498F2B1007B3269 /* SwiftGRPC */; };
-		15BEFD852498F321007B3269 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BEFD842498F321007B3269 /* File.swift */; };
+		15BEFD852498F321007B3269 /* TestFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BEFD842498F321007B3269 /* TestFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		15BEFD532498D725007B3269 /* TestFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15BEFD582498D725007B3269 /* TestFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFrameworkTests.swift; sourceTree = "<group>"; };
 		15BEFD5A2498D725007B3269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15BEFD842498F321007B3269 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		15BEFD842498F321007B3269 /* TestFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				15BEFD4D2498D725007B3269 /* TestFramework.h */,
+				15BEFD842498F321007B3269 /* TestFramework.swift */,
 				15BEFD4E2498D725007B3269 /* Info.plist */,
-				15BEFD842498F321007B3269 /* File.swift */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15A6951524990FC900DCDD83 /* Package.swift in Sources */,
-				15BEFD852498F321007B3269 /* File.swift in Sources */,
+				15BEFD852498F321007B3269 /* TestFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
